@@ -1,0 +1,36 @@
+<!-- <nav class="navbar navbar-light" style="background-color: #e3f2fd; float: left;">
+  <h1><a class="navbar-brand" href="#">Aavas</a></h1>&nbsp;&nbsp;
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class= "nav-item nav-link" routerLinkActive="myActiveClass active"[routerLinkActiveOptions]="{exact:true}" routerLink="/home">Home </a>&nbsp;&nbsp;
+      <a class="nav-item nav-link" routerLinkActive=" myActiveClass active" routerLink="/about-us">About Us</a>&nbsp;&nbsp;
+      <a class="nav-item nav-link"  routerLinkActive="myActiveClass active" routerLink="/help">Help</a>&nbsp;&nbsp;
+      <a class="nav-item nav-link" routerLinkActive="myActiveClass active"  routerLink="/check-status">Check Status</a>&nbsp;&nbsp;
+    </div>
+  </div>
+</nav> -->
+
+<nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white sidebar">
+  <div class="tab position-sticky">
+    <div class="list-group list-group-flush mx-3 mt-4">
+      <h2 class="h2"> <i class="ph-book-open ms-2"></i> AAVAS</h2>
+      <button class="tablinks"  routerLinkActive="myActiveClass active"[routerLinkActiveOptions]="{exact:true}" routerLink="/home" id="defaultOpen"><i class="ph-house mx-2"
+          style="color: aliceblue;"></i>home</button>
+      <!-- <button class="tablinks" routerLinkActive=" myActiveClass active" routerLink="/about-us"><i class="ph-users mx-2"></i>customer</button> -->
+      <button class="tablinks" routerLinkActive="myActiveClass active"  routerLink="/check-status"><i class="ph-chart-line mx-2"></i>check
+        status</button>
+      <!-- <button class="tablinks" onclick="openCity(event, 'password')"><i class="ph-key mx-2"></i>password</button> -->
+      <button class="tablinks" routerLinkActive="myActiveClass active" routerLink="/help"><i class="ph-info mx-2"></i>help</button>
+      <button class="tablinks" routerLinkActive=" myActiveClass active" routerLink="/about-us"><i class="ph-identification-card mx-2"></i>about
+        us</button>
+      <!-- <button class="tablinks" onclick="openCity(event, 'signout')"><i class="ph-sign-out mx-2"></i>sign out</button> -->
+    </div>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
+
+<!-- <span class="sr-only">(current)</span> -->

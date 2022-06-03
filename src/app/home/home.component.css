@@ -1,0 +1,14 @@
+.tabcontent {
+    position: inherit;
+    float: right;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 80%;
+    border-left: none;
+    height: 625px;
+  }
+  div.tabcontent
+{
+    overflow: scroll;
+    overflow-x: hidden;
+}
